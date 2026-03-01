@@ -5,7 +5,7 @@
   
   <p>
     <b>❗ Notice: This project is under active development and may contain many bugs.❗</b><br>
-    <sub>(주의: 아직 제작 중이라 많은 버그가 포함되어 있을 수 있습니다.)</sub>
+    <sub>(주의: 제작 중이라 많은 버그가 포함되어 있을 수 있습니다.)</sub>
   </p>
 
   <p>
