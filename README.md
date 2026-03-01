@@ -4,8 +4,8 @@
   <p>Hybrid C/S Remote Access Trojan & Stealth Framework</p>
   
   <p>
-    <b>❓ 주의: 아직 제작 중이라 많은 버그가 포함되어 있을 수 있습니다.</b><br>
-    <sub>(Notice: This project is under active development and may contain many bugs.)</sub>
+    <b>❗ Notice: This project is under active development and may contain many bugs.❗</b><br>
+    <sub>(주의: 아직 제작 중이라 많은 버그가 포함되어 있을 수 있습니다.)</sub>
   </p>
 
   <p>
@@ -133,6 +133,11 @@ Before building the agent, you must have your C2 listener active to obtain your 
    cd ../screen-share-worker && wrangler deploy
    ```
 3. Copy the generated `.workers.dev` URLs.
+
+> [!IMPORTANT]
+> **Detailed Setup Guides:**
+> - 📄 **[Proxy C2 Worker Setup Guide](./worker/SETUP.md)**
+> - 📺 **[Screen Share Worker Setup Guide](./screen-share-worker/SETUP.md)**
 
 #### Option B: Self-Hosted (Node.js Server)
 1. Ensure Node.js 18+ is installed on your VPS.
