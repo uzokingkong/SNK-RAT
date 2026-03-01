@@ -1,0 +1,16 @@
+{
+  "name": "screen-share-worker",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker for WebSocket-based screen sharing",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": ["cloudflare", "worker", "durable-objects", "websocket", "screen-share"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

@@ -1,0 +1,33 @@
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# Nim
+nimcache/
+*.exe
+*.dll
+*.o
+*.lib
+
+# Node.js
+node_modules/
+dist/
+build/
+.env
+
+# Editor/Temp
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+*.zip
+*.rar
+*.log
+
+# Project specific
+rust_rat_analysis.md
+create_release.ps1
+/nim_stealth/

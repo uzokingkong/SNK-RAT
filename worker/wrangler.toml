@@ -1,0 +1,23 @@
+name = "snaky-c2-worker"
+main = "src/index.js"
+compatibility_date = "2025-12-22"
+
+# KV 네임스페이스 바인딩
+[[kv_namespaces]]
+binding = "TOKENS_KV"
+id = "YOUR_TOKENS_KV_ID"
+
+[[kv_namespaces]]
+binding = "ENCRYPTION_KV"
+id = "YOUR_ENCRYPTION_KV_ID"
+
+[[kv_namespaces]]
+binding = "LOGS_KV"
+id = "YOUR_LOGS_KV_ID"
+
+[vars]
+SHARED_SECRET = "YOUR_SHARED_SECRET_HERE"
+BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
+JWT_SECRET = "CHANGE_ME_JWT_SECRET"
+MASTER_KEY_B64 = "CHANGE_ME_MASTER_KEY_BASE64"
+

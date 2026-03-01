@@ -1,0 +1,14 @@
+[target.x86_64-pc-windows-msvc]
+rustflags = ["-C", "target-feature=+crt-static"]
+
+[build]
+rustflags = [
+  # Strip all local source paths from panic location strings in binary
+  "--remap-path-prefix=C:\\Users\\Doheon\\Desktop\\snaky_project_github_source=.",
+  # Strip cargo registry crate paths (zune-jpeg, image, reqwest, tokio, etc.)
+  "--remap-path-prefix=C:\\Users\\Doheon\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f=.",
+  # Strip rustc standard library paths (/rustc/COMMITSHA/)
+  "--remap-path-prefix=/rustc=.",
+  # Strip any remaining home directory references
+  "--remap-path-prefix=C:\\Users\\Doheon=.",
+]
