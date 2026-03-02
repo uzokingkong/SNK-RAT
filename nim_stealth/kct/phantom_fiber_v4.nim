@@ -5,7 +5,6 @@
 ##   특징:
 ##     - 디스크 흔적 없음 (MEM_MAPPED | PAGE_EXECUTE_READ)
 ##     - RWX 페이지 없음 (스텁은 MEM_PRIVATE가 아닌 MEM_MAPPED 섹션에 존재)
-##     - Atomic one-shot gate로 중복 실행 완전 방지
 ##
 ##   실행 흐름:
 ##     1. NtCreateSection(NULL file, PAGE_EXECUTE_READWRITE, SEC_COMMIT)
