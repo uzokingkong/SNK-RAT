@@ -48,10 +48,6 @@ nim_stealth/
 │   ├── phantom_fiber.nim   ← KCT Phantom Fiber v1 (구버전)
 │   ├── poolparty.nim       ← Pool Party (TP_DIRECT)
 │   └── threadless.nim      ← Early Bird APC + Special User APC
-│
-└── tests/
-    ├── test_custom_process.nim  ← notepad.exe KCT 인젝션 테스트
-    └── test_svchost.nim         ← svchost.exe KCT 인젝션 테스트
 ```
 
 ---
