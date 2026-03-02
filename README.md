@@ -133,7 +133,7 @@ Before building the agent, you must have your C2 listener active to obtain your 
    cd worker && wrangler deploy
    cd ../screen-share-worker && wrangler deploy
    ```
-3. Copy the generated `.workers.dev` URLs.
+3. Copy the generated `.workers.dev` URLs
 
 > [!IMPORTANT]
 > **Detailed Setup Guides:**
