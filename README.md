@@ -27,7 +27,8 @@
 ## Introduction
 Snaky is a Windows Remote Access Trojan (RAT) and Command & Control (C2) framework developed for PoC (Proof of Concept) purposes. 
 
-Built with a hybrid architecture combining a high-performance Rust loader and a heavily obfuscated Nim stealth engine, it is designed to bypass modern EDR and AV solutions. This project integrates various attack techniques, fileless execution concepts, and real-time remote administration features.
+Built with a hybrid architecture combining a high-performance Rust loader and a heavily obfuscated Nim stealth engine, it is designed to bypass modern EDR and AV solutions(
+Making it more perfect...). This project integrates various attack techniques, fileless execution concepts, and real-time remote administration features.
 
 ## Disclaimer
 This project was developed out of personal interest in cyber security research and EDR evasion techniques. Do not use this software for any illegal activities. 
