@@ -186,16 +186,14 @@ cargo build --release
 The final, ready-to-use agent is located at: `target/release/snaky.exe`.
 
 ---
-
----
-
-## Expectations (Soon)
-- Quality Assurance (Refactoring & Bug Fixes)
-- Linux Support (Cross-Platform Implementation)
-- Additional Plugin Support
-- Deep DNS Tunneling & C2 over DNS
-- Advanced Rootkit Capabilities
-
+<!-- Demo Video Section -->
+<div align="center">
+  <h2>🎥 Demonstration Video</h2>
+  <p><i>Real-time EDR Evasion & Remote Administration Command Execution Demo</i></p>
+  <video src="./fdf.mp4" controls="controls" width="800" style="max-width: 100%; border-radius: 8px;">
+    Your browser does not support the video tag.
+  </video>
+</div>
 ---
 
 ## Demonstration
