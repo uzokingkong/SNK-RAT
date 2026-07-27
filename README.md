@@ -38,6 +38,9 @@ The developer assumes no liability and is not responsible for any misuse or dama
 Antivirus software or EDRs may detect certain components and automatically block or delete them during the build process or execution. This is normal and expected behavior for offensive security tools.
 
 ---
+https://github.com/user-attachments/assets/306c4005-a9b4-47d0-b565-e84d9d55e8f2
+
+
 
 ## Network Architecture
 
@@ -185,8 +188,6 @@ cargo build --release
 ```
 The final, ready-to-use agent is located at: `target/release/snaky.exe`.
 
-
-https://github.com/user-attachments/assets/306c4005-a9b4-47d0-b565-e84d9d55e8f2
 
 
 
