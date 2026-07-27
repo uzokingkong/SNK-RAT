@@ -185,23 +185,14 @@ cargo build --release
 ```
 The final, ready-to-use agent is located at: `target/release/snaky.exe`.
 
----
-<div align="center">
-  <h2>🎥 Demonstration Video</h2>
-  <p><i>Real-time EDR Evasion & Remote Administration Command Execution Demo</i></p>
-  <video src="https://github.com/uzokingkong/SNK-RAT/raw/main/fdf.mp4" width="800" controls="controls" style="max-width: 100%; border-radius: 8px;">
-    Your browser does not support the video tag.
-  </video>
-</div>
----
+
+https://github.com/user-attachments/assets/306c4005-a9b4-47d0-b565-e84d9d55e8f2
+
+
 
 ## Demonstration
 
-<div align="center">
-  <video src="https://github.com/snake0074/snaky_c2_framework/raw/main/fdf.mp4" width="100%"></video>
-</div>
 
----
 
 ---
 
